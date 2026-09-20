@@ -1,0 +1,15 @@
+# Core
+streamlit>=1.50
+pillow>=10.1
+numpy>=1.26
+pandas>=2.0
+opencv-python-headless>=4.9
+
+# Recommended
+img2pdf>=0.5          # sharper, smaller PDFs in "Images to PDF"
+pymupdf>=1.24         # enables "PDF to Images"
+pillow-heif>=0.16     # accepts iPhone HEIC / HEIF photos
+
+# Optional: AI background removal (best quality on busy backgrounds, hair, fur).
+# Downloads a ~170 MB model the first time it is used, so it needs internet once.
+# rembg[cpu]>=2.0.57
